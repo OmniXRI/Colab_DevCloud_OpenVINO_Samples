@@ -1,7 +1,8 @@
 # Colab_DevCloud_OpenVINO_Samples
 這裡分享一些可以從Google Colab或者Intel DevCloud上執行的OpenVINO Jypyter Notebook Python範例。
-主要參考範例是從Intel OpenVINO官方文件中整理而得，更多內容可參考Open Model Zoo Demos   
-https://docs.openvinotoolkit.org/latest/omz_demos.html
+主要參考範例是從Intel OpenVINO官方文件中整理而得，更多內容可參考Open Model Zoo Demos https://docs.openvinotoolkit.org/latest/omz_demos.html  
+
+Colab及DevCloud版本最大差異為前者每次都需重新安裝一次OpenVINO，且執行時通常要執行/opt/intel/openvino/bin/setupvars.sh來設定環境變數，而後者已自帶OpenVINO且已將環境變數設定好，不需再次執行。  
 
 **Colab_OpenVINO_Face_Detection.ipynb**  
 **DevCloud_OpenVINO_Face_Detection.ipynb**   
