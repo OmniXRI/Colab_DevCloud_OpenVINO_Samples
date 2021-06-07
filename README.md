@@ -4,6 +4,8 @@
 
 Colab及DevCloud版本最大差異為前者每次都需重新安裝一次OpenVINO，且執行時通常要執行/opt/intel/openvino/bin/setupvars.sh來設定環境變數，而後者已自帶OpenVINO且已將環境變數設定好，不需再次執行。  
 
+每個範例程式都能獨立執行，工作流程大致相同，下載模型、轉換模型成IR、準備測試影像及進行推論，但其中細節會略有不同，請仔細比較其中差異。  
+
 **Colab_OpenVINO_Face_Detection.ipynb**  
 **DevCloud_OpenVINO_Face_Detection.ipynb**   
 Intel's Pre-trained Model人臉偵測範例，主要使用模型face-detection-retail-0005，搭配/inference_engine/demos/object_detection_demo/python/object_detection_demo.py執行推論工作。  
