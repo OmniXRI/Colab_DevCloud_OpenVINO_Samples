@@ -1,5 +1,5 @@
 # Colab_DevCloud_OpenVINO_Samples
-這裡分享一些可以從Google Colab或者Intel DevCloud上執行的OpenVINO範例。
+這裡分享一些可以從Google Colab或者Intel DevCloud上執行的OpenVINO Jypyter Notebook Python範例。
 
 **Colab_OpenVINO_Face_Detection.ipynb**  
 **DevCloud_OpenVINO_Face_Detection.ipynb**   
