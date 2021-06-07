@@ -1,5 +1,7 @@
 # Colab_DevCloud_OpenVINO_Samples
 這裡分享一些可以從Google Colab或者Intel DevCloud上執行的OpenVINO Jypyter Notebook Python範例。
+主要參考範例是從Intel OpenVINO官方文件中整理而得，更多內容可參考Open Model Zoo Demos   
+https://docs.openvinotoolkit.org/latest/omz_demos.html
 
 **Colab_OpenVINO_Face_Detection.ipynb**  
 **DevCloud_OpenVINO_Face_Detection.ipynb**   
@@ -15,6 +17,3 @@ Intel's Pre-trained Model人體姿態估測範例，主要使用模型human-pose
 **DevCloud_OpenVINO_Image_Classification.ipynb**   
 Public Pre-trained Model影像範例，主要使用模型resnet-34-pytorch，搭配/inference_engine/samples/python/hello_classification/hello_classification.py執行推論工作。  
 ![](https://raw.githubusercontent.com/OmniXRI/Colab_DevCloud_OpenVINO_Samples/main/images/Image_classification_input.png)
-
-
-
