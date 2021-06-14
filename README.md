@@ -18,7 +18,7 @@ Intel's Pre-trained Model人體姿態估測範例，主要使用模型human-pose
 
 **Colab_OpenVINO_Image_Classification.ipynb**   
 **DevCloud_OpenVINO_Image_Classification.ipynb**   
-Public Pre-trained Model影像範例，主要使用模型resnet-34-pytorch，搭配/inference_engine/samples/python/hello_classification/hello_classification.py執行推論工作。  
+Public Pre-trained Model影像分類範例，主要使用模型resnet-34-pytorch，搭配/inference_engine/samples/python/hello_classification/hello_classification.py執行推論工作。  
 ![](https://raw.githubusercontent.com/OmniXRI/Colab_DevCloud_OpenVINO_Samples/main/images/Image_classification_input.png)
 
 **Colab_OpenVINO_Face_Head_Gaze.ipynb**  
@@ -32,3 +32,6 @@ OpenVINO人臉定位、特徵提取、頭部姿態估測及注視點偵測範例
 由於Intel OpenVINO官方未提供Head Pose, Gaze Estimation Python範例程式，這裡參考 https://github.com/LCTyrell/Gaze_estimation 進行測試。原程式使用OpenVINO 2020.3.194 (2020.3 LTS)版本，經測試不適用於 2021.3.394版本。  
 ![](https://raw.githubusercontent.com/OmniXRI/Colab_DevCloud_OpenVINO_Samples/main/images/Face_Head_Gaze_output.PNG)
 
+**Colab_OpenVINO_Sound_Classification.ipynb**   
+**DevCloud_OpenVINO_Sound_Classification.ipynb**   
+Public Pre-trained Model聲音範例，主要使用模型aclnet，搭配/inference_engine/demos/sound_classification_demo/python/sound_classification_demo.py執行推論工作。  
