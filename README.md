@@ -35,3 +35,4 @@ OpenVINO人臉定位、特徵提取、頭部姿態估測及注視點偵測範例
 **Colab_OpenVINO_Sound_Classification.ipynb**   
 **DevCloud_OpenVINO_Sound_Classification.ipynb**   
 Public Pre-trained Model聲音分類範例，主要使用模型Aet及ESC-50環境音資料集，搭配/inference_engine/demos/sound_classification_demo/python/sound_classification_demo.py執行推論工作。  
+![](https://github.com/OmniXRI/Colab_DevCloud_OpenVINO_Samples/blob/main/images/esc50.gif)
