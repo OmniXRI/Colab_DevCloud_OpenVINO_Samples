@@ -21,7 +21,7 @@ Intel's Pre-trained Model人體姿態估測範例，主要使用模型human-pose
 Public Pre-trained Model影像分類範例，主要使用模型resnet-34-pytorch，搭配/inference_engine/samples/python/hello_classification/hello_classification.py執行推論工作。  
 ![](https://raw.githubusercontent.com/OmniXRI/Colab_DevCloud_OpenVINO_Samples/main/images/Image_classification_input.png)
 
-**Colab_OpenVINO_Open_Closed_Eye_ONNX.ipynb**
+**Colab_OpenVINO_Open_Closed_Eye_ONNX.ipynb**  
 本範例和上一個影像分類相同，主要使用open-closed-eye-0001，搭配/inference_engine/samples/python/hello_classification/hello_classification.py執行推論工作。  
 該模型為ONNX格式，所以需先轉換成IR格式(bin, xml)。另外該模型輸出只有兩個分類，classid=0為閉眼，classid=1為張眼，不須再引入標籤標檔(Label)。  
 ![](https://raw.githubusercontent.com/OmniXRI/Colab_DevCloud_OpenVINO_Samples/main/images/open_closed_eye_output.png)
